@@ -72,6 +72,11 @@ public class FilterTest {
             }
 
             @Override
+            public String getParameterValue(String name) {
+                return null;
+            }
+
+            @Override
             public String getContextPath() {
                 return "";
             }

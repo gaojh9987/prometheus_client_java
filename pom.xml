@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <packaging>pom</packaging>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.prometheus</groupId>
     <artifactId>parent</artifactId>
-    <version>0.16.1-SNAPSHOT</version>
+    <version>0.16.3-SNAPSHOT</version>
 
     <name>Prometheus Java Suite</name>
     <url>http://github.com/prometheus/client_java</url>
@@ -39,10 +40,6 @@
     <modules>
         <module>simpleclient</module>
         <module>simpleclient_common</module>
-        <module>simpleclient_caffeine</module>
-        <module>simpleclient_dropwizard</module>
-        <module>simpleclient_graphite_bridge</module>
-        <module>simpleclient_hibernate</module>
         <module>simpleclient_guava</module>
         <module>simpleclient_hotspot</module>
         <module>simpleclient_httpserver</module>
@@ -52,17 +49,13 @@
         <module>simpleclient_pushgateway</module>
         <module>simpleclient_servlet</module>
         <module>simpleclient_servlet_common</module>
-        <module>simpleclient_servlet_jakarta</module>
         <module>simpleclient_spring_web</module>
         <module>simpleclient_spring_boot</module>
-        <module>simpleclient_jetty</module>
-        <module>simpleclient_jetty_jdk8</module>
         <module>simpleclient_tracer</module>
         <module>simpleclient_vertx</module>
         <module>simpleclient_vertx4</module>
         <module>simpleclient_bom</module>
         <module>benchmarks</module>
-        <module>integration_tests</module>
     </modules>
 
     <properties>

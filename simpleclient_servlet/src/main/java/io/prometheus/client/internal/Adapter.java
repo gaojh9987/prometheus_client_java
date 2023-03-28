@@ -43,6 +43,11 @@ public class Adapter {
         }
 
         @Override
+        public String getParameterValue(String name) {
+            return delegate.getParameter(name);
+        }
+
+        @Override
         public String getContextPath() {
             return delegate.getContextPath();
         }
